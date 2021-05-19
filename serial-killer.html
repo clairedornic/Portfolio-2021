@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="fr" data-scroll-direction="vertical">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Claire Dornic - Portfolio </title>
+  <meta name="description"
+    content="Moi c'est Claire Dornic et voici mon portfolio! Je suis étudiante en licence professionnelle projet web et mobile à l'Université de la Sorbonne. Je suis passionnée de développement web, de photographie et d'infographie. Venez voir ses projets!">
+  <link rel="stylesheet" href="./assets/style/base.css" media="all">
+  <link rel="stylesheet" href="./assets/style/style.css" media="all">
+  <link rel="icon" type="image/png" href="./assets//img/favicon.png" />
+</head>
+
+<body class="projet-item" data-barba="wrapper">
+  <div class="load-container">
+    <div class="loading-screen">
+    </div>
+  </div>
+  <div class="cursor"></div>
+  <div class="follower"></div>
+
+  <header>
+    <nav class="nav">
+      <ul>
+        <a target="_self" id="menu-propos" href="./a-propos.html" class="link link--herse nav-item hover-link">
+          <span>A propos</span>
+        </a>
+        <a target="_self" id="menu-projet" href="./index.html#projets" class="link link--herse nav-item hover-link">
+          <span>Projets</span>
+        </a>
+        <a target="_self" href="./index.html#contact" class="link link--herse nav-item hover-link">
+          <span>Contact</span>
+        </a>
+      </ul>
+    </nav>
+  </header>
+  <main data-barba="container" data-barba-namespace="projet">
+    <div class="projet-infos animate-this">
+      <div class="projet-text">
+        <div class="titre">
+          <h1>Serial Killer</h1>
+          <p class="annee">2020</p>
+        </div>
+        <div class="projet-text-img">
+          <div class="projet-img">
+            <img src="./assets/img/serial-killer.png" alt="Présentation de la page d'accueil de mon webdocumentaire sur les Serials Killers">
+          </div>
+          <p class="projet-desc">Pendant mon DUT MMI, j’ai eu la mission de créer un Webdocumentaire. J’ai choisi le sujet des serials killers, car je voulais voir s’ils existaient des études scientifiques sur ces individus.
+            J’ai effectué des recherches sur le sujet afin d’aborder le sujet de façon scientifique et critique. J’ai ensuite imaginé la structure du webdocumentaire. À partir de celle-ci, j’ai créé un web design épuré qui n’avait pas vocation à faire peur, mais uniquement à illustrer le propos. J’ai ensuite développé le webdocumentaire pour les formats desktop.            
+        </p>
+        </div> 
+      </div>
+    </div>
+    <div class="projet-infos-supp animate-this">
+      <div class="projet-tech">
+        <h3>Outils</h3>
+        <ul>
+            <li>PHP</li> 
+            <li>CSS</li>
+            <li>JS</li>
+            <li>Affinity Designer</li>
+            <li>Documentation</li>
+          </ul> 
+      </div>
+      <div class="projet-more">
+      </div>
+      <a href="http://www.serialkiller.clairedornic.fr/" target="_blank" id="project-more" class="hover-link emblem">Voir le projet
+        •</a>
+      <span class="cache"></span>
+    </div>
+  </main>
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@barba/core"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.2.4/gsap.min.js"></script>
+  <script src="./assets/script/locomotive.min.js"></script>
+  <script src="./assets/script/script.js"></script>
+</body>
+
+</html>
