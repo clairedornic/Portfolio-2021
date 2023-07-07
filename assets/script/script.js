@@ -102,9 +102,7 @@ window.addEventListener("load", () => {
 
 /* Check body class */
 function checkClassBody() { 
-    console.log("class body checked"); 
     if($('body').hasClass('a-propos') || $('body').hasClass('projet-item')) {
-        console.log("Body autre"); 
         // Rounded text
      var Emblem = {
         init: function (el, str) {
@@ -131,7 +129,6 @@ function checkClassBody() {
     Emblem.init('.emblem');
 
     } else if ($('body').hasClass('home-page')) {
-        console.log("Body home"); 
          //Initialisation of the locomotive scroll
          const lscroll = new LocomotiveScroll({
             el: document.querySelector('[data-scroll-container]'),
@@ -150,20 +147,17 @@ function checkClassBody() {
         document.getElementById("menu-contact").addEventListener("click", function(event) {
             event.preventDefault();
             const target = document.querySelector('#contact');
-            console.log(target);
             lscroll.scrollTo(target);
         }, true);
         document.getElementById("menu-projet").addEventListener("click", function(event) {
             event.preventDefault();
             const target = document.querySelector('#projets');
-            console.log(target);
             lscroll.scrollTo(target);
         }, true);
     
         document.getElementById("rotated").addEventListener("click", function(event) {
             event.preventDefault();
             const target = document.querySelector('#projets');
-            console.log(target);
             lscroll.scrollTo(target);
         }, true);
 
@@ -188,7 +182,6 @@ function checkClassBody() {
                 var itemsNav = document.getElementsByClassName('span-nav');
     
                 if (entry.isIntersecting) {
-                    console.log()
                     for (var i = 0; i < itemsNav.length; i++){
                         itemsNav[i].style.color = "#fff6e9";
                     }
@@ -219,7 +212,6 @@ function checkClassBody() {
 
          //if the page is resized, update locomotive scroll
         window.addEventListener('resize', function(event){
-            console.log("resize");
             lscroll.update();  
         }); 
 
