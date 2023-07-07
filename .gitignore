@@ -1,2 +1,8 @@
 node_modules/
-assets/fonts/Celattin.woff
+assets/fonts/*
+assets/music
+assets/img/bg-petit.jpg
+assets/img/boule.svg
+assets/img/feuille.svg
+assets/img/feuille-right.svg
+assets/img/etoile.svg
