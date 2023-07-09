@@ -1,0 +1,123 @@
+[
+    {
+      "title": "Lokel",
+      "slug": "lokel",
+      "year": 2023,
+      "type": "Application",
+      "alt_img": "Logo et slogan de Lokel ( Facilité l'accès au langage des signes auprès de tous )",
+      "description": "Lokel est une application mobile dédiée au langage des signes, elle a pour objectif de faciliter la traduction, l’apprentissage et la pratique de ce dernier. Cette application vise à démocratiser ce langage en le rendant accessible à tous, favorisant ainsi une meilleure inclusion sociale et une communication fluide entre les personnes sourdes, muettes ou malentendantes et les personnes entendantes.",
+      "technologies": ["React Native", "Firebase", "Expo"],
+      "links" : [
+        {
+          "type" : "github",
+          "url" : "https://github.com/clairedornic/lokel",
+          "text" : "Voir le code"
+        },
+        {
+          "type" : "external",
+          "url" : "https://www.figma.com/proto/GWih3x1rkc22mInayYMiYO/Lokel---Maquettes?page-id=82%3A718&type=design&node-id=223-4169&viewport=314%2C1804%2C0.43&scaling=scale-down&starting-point-node-id=164%3A2386/",
+          "text" : "Voir le prototype figma"
+        },
+        {
+          "type" : "external",
+          "url" : "https://www.figma.com/file/GWih3x1rkc22mInayYMiYO/Lokel---Maquettes?type=design&node-id=82%3A718&t=qNz8yMf1CGp15l1F-1",
+          "text" : "Voir les maquettes"
+        }
+      ]
+    },
+    {
+      "title": "Floralies",
+      "slug": "floralies",
+      "year": 2022,
+      "type": "Site internet",
+      "alt_img": "Page d'accueil du site des Floralies",
+      "description": "Les Floralies, un événement majeur dans le domaine de l'horticulture en Europe, est organisé à Nantes tous les 5 ans depuis 1959 par le Comité des Floralies. La dernière édition en mai 2019 a attiré près de 250 000 visiteurs. Cependant, pour la prochaine édition qui se déroulera du 17 au 26 mai 2024, les Floralies internationales déménageront en Vendée, précisément au domaine de la Chabotterie à Saint-Sulpice-le-Verdon. Le thème choisi pour cette édition sera « Jeux de fleurs », en référence aux Jeux Olympiques 2024. Le site des Floralies est un site vitrine développé avec WordPress, incorporant des animations interactives déclenchées par le scroll. Le projet est composé des blocs Gutenberg personnalisés et d’une traduction intégrée.",
+      "technologies": ["Wordpress", "PHP", "JavaScript", "Locomotive Scroll", "ACF"],
+      "links" : [
+        {
+          "type" : "external",
+          "url" : "https://comite-des-floralies.com/",
+          "text" : "Voir le site"
+        }
+      ]
+    },
+    {
+      "title": "Cocktails",
+      "slug": "cocktails",
+      "year": 2023,
+      "type": "Application",
+      "alt_img": "Page d'accueil du site de cocktails",
+      "description": "Cocktails est une application web et mobile qui permet de trouver un cocktail ainsi que sa recette.",
+      "technologies": ["React", "React Native", "Cocktail DB API", "React query", "Typescript"],
+      "links" : [
+        {
+          "type" : "external",
+          "url" : "https://vercel.com/clairedornic/claire-cocktails",
+          "text" : "Voir le site"
+        },
+        {
+          "type" : "github",
+          "url" : "https://github.com/clairedornic/Cocktails",
+          "text" : "Code de la version web"
+        },
+        {
+          "type" : "github",
+          "url" : "https://github.com/clairedornic/Cocktails-mobile",
+          "text" : "Code de la version mobile"
+        }
+      ]
+    },
+    {
+      "title": "Travel Blog",
+      "slug": "travel-blog",
+      "year": 2023,
+      "type": "Site internet",
+      "alt_img": "Page d'accueil du blog de voyage",
+      "description": "Travel Blog est un blog qui recense des bons plans et des articles en lien avec le voyage.",
+      "technologies": ["Nuxt JS", "DatoCMS", "GraphQL", "Apollo"],
+      "links" : [
+        {
+          "type" : "github",
+          "url" : "https://github.com/clairedornic/trip-chat-gpt",
+          "text" : "Voir le code"
+        },
+        {
+          "type" : "external",
+          "url" : "https://monumental-sawine-208871.netlify.app/",
+          "text" : "Voir le site"
+        }
+      ]
+    },
+    {
+      "title": "Sogedi",
+      "slug": "sogedi",
+      "year": 2022,
+      "type": "Site internet",
+      "alt_img": "Page d'accueil du site Sogedi",
+      "description": "Sogedi, la « SOciété de GEstion Des Impayés », a développé son expertise et sa réputation dans le domaine du recouvrement et de l'enquête civile depuis près de 30 ans. En tant qu'entreprise référencée au niveau national, Sogedi défend quotidiennement son savoir-faire et sa solidité, ce qui lui permet d'accompagner des clients institutionnels en France. Le site Internet de Sogedi est une vitrine qui met en valeur les services de l'entreprise. Il a été développé en utilisant des blocs Gutenberg personnalisés, avec la possibilité de réutiliser certains blocs. L'utilisation d'ACF (Advanced Custom Fields) a été intégrée pour une meilleure gestion du contenu. De plus, l'API a été utilisée pour des fonctionnalités spécifiques telles que le recrutement et le formulaire de contact avec l'utilisation de Forminator et des hooks.",
+      "technologies": ["Wordpress", "PHP", "JavaScript", "Gutenberg", "ACF", "API (POST/GET)"],
+      "links" : [
+        {
+          "type" : "external",
+          "url" : "https://www.sogedi.fr/",
+          "text" : "Voir le site"
+        }
+      ]
+    },
+    {
+      "title": "Sport Bretagne",
+      "slug": "sport-bretagne",
+      "year": 2022,
+      "type": "Site internet",
+      "alt_img": "Page d'accueil du site Sport Bretagne",
+      "description": "Ce projet a été développé en utilisant des blocs personnalisés de Gutenberg et des champs personnalisés grâce au plugin ACF. Le site propose plusieurs formulaires mis en place avec Gravity Forms, dont un qui permet de trouver un financement, celui-ci se base sur un arbre décisionnel pour proposer des financements en fonction du profil de l’utilisateur.",
+      "technologies": ["Wordpress", "Gutenberg", "Arbre décisionel", "Gravity form", "API (POST)"],
+      "links" : [
+        {
+          "type" : "external",
+          "url" : "https://www.sportbretagne.bzh/",
+          "text" : "Voir le site"
+        }
+      ]
+    }
+  ]
