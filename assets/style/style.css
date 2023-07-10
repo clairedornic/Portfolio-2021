@@ -760,8 +760,7 @@ header .nav-item span {
 
 .link-social {
     display: inline-flex;
-    justify-content: space-between;
-    width: 30%;
+    gap: 40px;
 }
 
 .link-social a {
@@ -1423,6 +1422,10 @@ header .nav-item span {
     .contact p {
         margin-top: 0;
     }
+
+    .infos-contact a {
+        font-size: 25px;
+    }
 }
 
 @media screen and (max-width: 950px) {
@@ -1605,6 +1608,7 @@ header .nav-item span {
         align-items: center;
         justify-content: center;
         width: 100%;
+        gap: 15px;
     }
 
     .infos-contact {
