@@ -1,4 +1,4 @@
-<?php require('./partials/header.php'); ?>
+<?php require('./partials/head.php'); ?>
 <body class="a-propos" data-barba="wrapper">
   <?php require('./partials/loader.php'); ?>
   <?php require('./partials/cursor.php'); ?>
