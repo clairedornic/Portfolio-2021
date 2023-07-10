@@ -5,7 +5,6 @@
         <h3 id="open-oppo" data-scroll data-scroll-speed="1">Ouverte aux opportunités</h3>
         <div class="link-social">
             <a href="https://www.linkedin.com/in/claire-dornic-32900215a/" target="_blank" class="hover-link">Linkedin</a>
-            <a href="https://twitter.com/Claire_dornic" target="_blank" class="hover-link">Twitter</a>
             <a href="./assets/pdf/CV_claire_dornic.pdf" target="_blank" class="hover-link">CV</a>
         </div>
         </div>
