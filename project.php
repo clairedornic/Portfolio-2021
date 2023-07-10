@@ -1,18 +1,28 @@
 <?php require('./partials/head.php'); ?>
 <?php
-  $projectName = isset($_GET['name']) ? $_GET['name'] : null;
-  $project = null;
+    $projectName = isset($_GET['name']) ? $_GET['name'] : null;
+    $project = null;
 
-  if ( $projectName !== null ) {
-    
-    $projects = json_decode( file_get_contents( './content/projects.json' ), true );
-    foreach ( $projects as $project_item ) {
-        if ( $project_item['slug'] === $projectName ) {
-            $project = $project_item;
-            break;
+    if ( !preg_match( '/^[a-z\-]+$/i', $projectName ) ) {
+        header("Location: index.php");
+    }
+
+    $projectName = urlencode( $projectName );
+
+    if ( $projectName !== null ) {
+        
+        $projects = json_decode( file_get_contents( './content/projects.json' ), true );
+        foreach ( $projects as $project_item ) {
+            if ( $project_item['slug'] === $projectName ) {
+                $project = $project_item;
+                break;
+            }
         }
     }
-  }
+
+    if ( ! $project ) {
+        header("Location: index.php");
+    }
 ?>
 <body class="projet-item" data-barba="wrapper">
     <?php require('./partials/loader.php'); ?>

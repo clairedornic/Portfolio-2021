@@ -47,12 +47,12 @@
       "year": 2023,
       "type": "Application",
       "alt_img": "Page d'accueil du site de cocktails",
-      "description": "Cocktails est une application web et mobile qui permet de trouver un cocktail ainsi que sa recette.",
+      "description": "Ce projet est une application développée en utilisant tout d'abord React, puis React Native pour la version mobile. L'objectif principal de ce projet était de permettre aux utilisateurs de visualiser une liste de cocktails ainsi que leurs recettes associées. Les données nécessaires sont récupérées à partir d'une API. Le projet s'est distingué par la mise en place d'une structure de fichiers définie, permettant une organisation claire et maintenable du code source, l'utilisation de ReactQuery pour la gestion des données, l'intégration de TypeScript pour la vérification des types, et l'écriture de tests avec Jest.",
       "technologies": ["React", "React Native", "Cocktail DB API", "React query", "Typescript"],
       "links" : [
         {
           "type" : "external",
-          "url" : "https://vercel.com/clairedornic/claire-cocktails",
+          "url" : "claire-cocktails-6wizgzdr6-clairedornic.vercel.app",
           "text" : "Voir le site"
         },
         {
@@ -73,7 +73,7 @@
       "year": 2023,
       "type": "Site internet",
       "alt_img": "Page d'accueil du blog de voyage",
-      "description": "Travel Blog est un blog qui recense des bons plans et des articles en lien avec le voyage.",
+      "description": "Travel Blog est un site qui recense des bons plans et des articles en lien avec le voyage. Ce projet a été développé avec DatoCMS et Nuxt JS. Les objectifs de ce projet étaient multiples : acquérir une maîtrise de Nuxt.js et Vue.js, comprendre les avantages d'un CMS headless et identifier les cas d'utilisation appropriés et mener un projet de sa conception à sa mise en production.",
       "technologies": ["Nuxt JS", "DatoCMS", "GraphQL", "Apollo"],
       "links" : [
         {
