@@ -741,7 +741,7 @@ header .nav-item span {
     background-image: url("../img/rect-contact.png");
     background-repeat: no-repeat;
     background-size: contain;
-    background-position: center;
+    background-position: top center;
     display: flex;
     align-items: center;
     justify-content: center;
